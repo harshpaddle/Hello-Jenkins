@@ -7,7 +7,7 @@ pipeline {
             steps {
               sh '''
                  cd ./rsvp-service
-                 ./mvnw -DskipTests clean compile
+               sudo  ./mvnw -DskipTests clean compile
               '''
             }
         }
